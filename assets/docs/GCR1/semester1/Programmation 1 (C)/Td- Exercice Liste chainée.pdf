@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1520110102 source:f:\save_c\esprit_2017\sem2_algo\s8_listes_doublement_chainees\03-cours_2018\corrige_ldc\main.c
+	<stdio.h>
+	<stdlib.h>
+	"corrige_ldc.h"
+
+1520110104 f:\save_c\esprit_2017\sem2_algo\s8_listes_doublement_chainees\03-cours_2018\corrige_ldc\corrige_ldc.h
+	<stdio.h>
+	<stdlib.h>
+
+1520588076 source:f:\save_c\esprit_2017\sem2_algo\s8_listes_doublement_chainees\03-cours_2018\corrige_ldc\corrige_ldc.c
+	"corrige_ldc.h"
+

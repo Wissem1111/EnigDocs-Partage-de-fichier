@@ -1,0 +1,91 @@
+OBJECTIFS D’APPRENTISSAGE/COMPETENCES VISEES
+A l’issue du module, l’étudiant doit être capable de :
+- Connaitre les fonctionnalités et les protocoles des 7 couches du Modèle OSI et les 4 couches du
+modèles TCP/IP
+PREREQUIS ET COURS ASSOCIES
+Obligatoires : Introduction aux communications et transmissions
+CONTENUS/DETAILS DU PROGRAMME
+CONTENU THEORIQUE :
+Chapitre 1 : Les architectures protocolaires
+- Modèle de référence (modèle OSI)
+- Modèle TCP/IP et les applications
+-
+Chapitre 2: Couche physique et support de transmission
+- Normes relatives à la couche physique (ISO, IEEE…)
+- Principes fondamentaux de la couche physique
+- Support de transmission de la couche physique
+ Câble en cuivre
+ Câble à fibres optiques
+ Sans fil
+- Propriétés des transmissions sans fil
+- Protocole PPP
+- Protocole HDLC
+Chapitre 3: Les réseaux locaux
+- Composants d’un LAN
+- Modes de communications (par diffusion /par commutation)
+- Principes fondamentaux des commutateurs
+- Le protocole Ethernet
+ Les sous couches MAC-LLC
+ Encapsulation Ethernet
+ Trame Ethernet
+- Le protocole ARP : fonctions et fonctionnement, cache ARP
+- Le contrôle d’accès (méthodes aléatoires et déterministes)
+- La méthode d’accès CSMA /CD
+- La méthode d’accès jeton sur anneau
+- Réseaux Ethernet et IEEE 802.3
+- Application
+Chapitre 4: Couche Réseau
+- Role de la couche réseau
+- Entête de la couche réseau (IPv4)
+- Découpage IPv4
+ ICANN, RIR, LIR
+ Masque du sous réseau
+ Addressage IPv4
+ Notion de classe A, B, C et D
+ VLSM et CIDR
+ TD: Decoupage réseaux**
+Chapitre 5 : Contrôle au niveau de la couche Réseaux ICMP et IGMP
+Chap 6: IPv6
+- Pourquoi IPv6?
+- format adresse IPv6
+- Les types (unicast global, site local, link local, multicast, anycast),
+- transition IPv4/IPv6 (adresse IPv4 compatible 6in4, addresse IPv4 mappée, 6to4, dual stack,
+NAT64)
+- Datagramme IPv6
+- IP Mobile v6
+- **TD: IPv6****
+Chap 7: Couche transport : protocoles UDP et TCP
+- Couche transport et notion de port
+- Protocole UDP (User Datagram Protocol)
+- Protocole TCP (Transmission Control Protocol) (entete TCP, ouverture et fermeture de connexion,
+transfert des données et acquittement, controle de flux et de congestion)
+- **TD: etude de segment TCP/IP, etude des numeros de sequences et d'acquitement, contorle de
+flux**
+Chap 8: DNS Domain Name Server
+Chap 9: HTTP HyperText Transfer Protocol
+1) Présentation du protocole http
+2) Le protocole HTTP et le Web
+3) Les méthodes (commandes de base (Get, Post, ...), les codes d'erreurs)
+4) Connexions persistantes
+5) les cookies
+Chap 10: Le courrier électronique
+1) Définition du courrier électronique
+2) Conditions nécessaires pour utiliser le courrier électronique (le compte utilisateur, les elements (MTA,
+MDA, AA), systeme de copie CC et BCC)
+3) Le protocole SMTP
+4) Le protocole POPv3
+5) Le protocole IMAP
+LECTURES RECOMMANDEES OU OBLIGATOIRES
+Titre Réseaux et télécoms - 4ème édition
+Hors collection
+Auteur Claude Servin
+Éditeur Dunod, 2013
+ISBN 2100593757, 9782100593750
+Longueur 800 pages
+Titre Les réseaux: Edition 2014
+Auteur Guy Pujolle
+Édition 8
+Éditeur Eyrolles, 2014
+ISBN 2212257864, 9782212257861
+Longueur 804 pages
+

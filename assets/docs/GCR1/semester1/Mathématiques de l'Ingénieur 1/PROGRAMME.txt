@@ -1,0 +1,13 @@
+*OBJECTIFS D’APPRENTISSAGE/COMPETENCES VISEES
+A l’issue du module, l’étudiant doit être capable de :
+- Savoir manipuler les transformées de Fourier et de Laplace,
+- Comprendre les différents aspects de l’analyse complexe
+- Comprendre les espaces de Hilbert et ce qui en découle.
+*CONTENU THEORIQUE :
+1-FONCTIONS CONVEXES ET INÉGALITÉS-ESPACES
+-THÉOREMES DE DENSITÉ-TRANSFORMATION DE
+FOURIER DANS L1 -TRANSFORMATION DE LAPLACE
+2- ANALYSE COMPLEXE
+Définitions et exemples de fonctions complexes. Fonctions holomorphes. Equations de Cauchy-Riemann.
+Intégrales complexes. Formule de Cauchy. Séries de Laurent. Théorème des résidus.
+3-PRODUIT SCALAIRE- ESPACES DE HILBERT-SYSTEMES ORTHOGONAUX

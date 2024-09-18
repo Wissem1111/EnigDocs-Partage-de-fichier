@@ -1,0 +1,15 @@
+OBJECTIFS D’APPRENTISSAGE/COMPETENCES VISEES
+A l’issue du module, l’étudiant doit être capable de :
+Doter l’Élève Ingénieur d’une approche d’analyse et de Synthèse des signaux a priori
+introduits comme support d’information.
+PREREQUIS ET COURS ASSOCIES
+Obligatoires : Maths de l’ingénieur I, Probabilité et Statistiques
+CONTENUS/DETAILS DU PROGRAMME
+CONTENU THEORIQUE :
+1. Introduction et Rappels Mathématiques
+2. & Information,
+3. Les Signaux : nature et développement
+4. Notion de Spectre,
+5. Les Systèmes : nature, types et actions entreprises
+6. Asservissement
+7. Aperçu sur les Signaux Aléatoires

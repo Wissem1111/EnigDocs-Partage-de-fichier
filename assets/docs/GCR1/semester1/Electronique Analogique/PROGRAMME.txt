@@ -1,0 +1,28 @@
+OBJECTIFS D’APPRENTISSAGE/COMPETENCES VISEES
+A l’issue du module, l’étudiant doit être capable de :
+- Connaitre les composants élémentaires de l’électronique analogique et leurs applications dans les
+fonctions de base
+CONTENUS/DETAILS DU PROGRAMME
+CONTENU THEORIQUE :
+CH 1: Diodes et applications
+Diode à jonction ; polarisation de la diode ; caractéristique statique courant-tension de la diode ; schémas
+équivalents de la diode ; la diode Zener ; redressement simple alternance ; redressement double alternance
+; filtrage ; stabilisation.
+CH 2 : Le transistor bipolaire et applications
+Présentation du transistor bipolaire ; réseaux de caractéristiques ; polarisation du transistor ; modèle petits
+signaux ; transistor bipolaire en amplification ; amplificateur Emetteur-commun ; amplificateur Collecteurcommun ; amplificateur base-commune ; autres applications du transistor bipolaire.
+CH 3 : Le transistor à effet de champ et applications
+Présentation du transistor JFET ; polarisation du JFET ; caractéristiques statiques ; le transistor JFET en
+amplification ; montage amplificateur Source-commune ; le JFET en résistance commandée ; autres
+applications du JFET ; le MOSFET.
+CH 4 : Amplificateur opérationnel et applications
+Généralités ; montages de base ; autres applications.
+CH 5 : Le filtrage
+Principes et objectifs ; caractéristiques de réponse d’un filtre ; les filtres passifs ; les filtres actifs.
+CH 6 : Les oscillateurs sinusoïdaux
+Généralités ; les oscillateurs sinusoïdaux basses fréquences : oscillateur pont de wien ; oscillateur à réseau
+déphaseur ; oscillateur double T ; les oscillateurs hautes fréquences : oscillateur à quartz.
+LECTURES RECOMMANDEES OU OBLIGATOIRES
+P. ROCHETTE « Les fondamentaux en électronique » Edition ELLIPS, 2006.
+B. ZOUABI « cours d’électronique : de la diode à l’amplificateur opérationnel : exercices et applications » centre de
+publication universitaire, Tunis, 2010

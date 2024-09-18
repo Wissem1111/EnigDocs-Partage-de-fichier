@@ -1,0 +1,28 @@
+OBJECTIFS D’APPRENTISSAGE/COMPETENCES VISEES
+A l’issue du module, l’étudiant doit être capable de :
+- A l'issue de ce module, les étudiants seront capables de développer des applications java et
+d'approfondir leur connaissance en toute autonomie.
+CONTENUS/DETAILS DU PROGRAMME
+Contenu Théorique :
+Partie I
+1. La programmation orientée objet
+2. Caractéristiques générales
+3. Programmation Java
+4. Droits d'accès
+5. Les packages Java et les archives jar
+6. Les données : variables, constantes et primitives
+7. Les structures conditionnelles et itératives
+Partie II
+1. Les operateurs
+2. Les Strings
+3. Les exceptions
+4. Les classes abstraites
+5. Les interfaces
+Partie III
+1. AWT et Swing: interfaces graphiques
+2. Programmation événementielles
+3. JDBC
+LECTURES RECOMMANDEES OU OBLIGATOIRES
+C. Delannoy. – Exercices en Java. Edition Eyrolles
+C. Delannoy. – Programmer en Java. Edition Eyrolles
+https://docs.oracle.com/en/java/javase/13/

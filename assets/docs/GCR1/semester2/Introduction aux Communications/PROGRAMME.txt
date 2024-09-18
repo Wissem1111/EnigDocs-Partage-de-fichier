@@ -1,0 +1,34 @@
+OBJECTIFS D’APPRENTISSAGE/COMPETENCES VISEES
+A l’issue du module, l’étudiant doit être capable de :
+- Connaitre le fonctionnement d’un système de transmission
+- Connaitre les concepts généraux des réseaux et les différentes techniques de commutations
+- Étudier le réseau téléphonique commuté.
+PREREQUIS ET COURS ASSOCIES
+Obligatoires : Fondamentaux des réseaux I
+CONTENUS/DETAILS DU PROGRAMME
+CONTENU THEORIQUE :
+Chapitre 1: Caractéristiques d’un système de transmission
+1. Introduction
+2. Structure d’un système de transmission
+3. Paramètres caractéristiques d’une voie de transmission
+4. Supports de transmission
+Chapitre 2: Techniques de transmission
+1. Numérisation d’un signal analogique
+2. Modes de transmission des signaux
+3. Modes de transmission: synchrone/asynchrone, série/ parallèle
+4. Modes d’exploitation d’une liaison
+5. Techniques de multiplexage
+6. Protection contre les erreurs
+Chapitre 3: Concepts généraux des réseaux et commutations
+1. Concepts généraux des réseaux
+2. Topologies
+3. Modèles de références
+4. Techniques de commutation dans un réseau
+Chapitre 4: Réseau Téléphonique Commuté (RTC)
+1. Architecture générale
+2. Fonctions du RTC
+3. Câblage RTC
+4. Services sur RTC
+LECTURES RECOMMANDEES OU OBLIGATOIRES
+[1] Claude Servin « Réseaux & télécoms » - 2e édition 2006
+[2] Guy Pujolle “Réseaux” Édition 2008

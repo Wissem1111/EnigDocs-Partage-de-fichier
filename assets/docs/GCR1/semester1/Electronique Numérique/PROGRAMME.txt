@@ -1,0 +1,29 @@
+OBJECTIFS D’APPRENTISSAGE/COMPETENCES VISEES
+A l’issue du module, l’étudiant doit être capable de :
+- Connaitre les notions de base pour la réalisation de systèmes numérique simples, combinatoires et
+séquentiels. Le module intègre les bases théoriques mais également des applications pratiques des
+circuits intégrés numériques.
+CONTENUS/DETAILS DU PROGRAMME
+CONTENU THEORIQUE :
+CH 1 : systèmes et bases de numération
+Définitions ; Systèmes de numération ; conversions entre bases.
+CH 2 : Les portes logiques et algèbre de Boole
+Définitions ; portes logiques ; propriétés de l’algèbre de Boole ; théorèmes de l’algèbre de Boole ;
+logigramme ; mintermes et maxtermes ; représentation d’une fonction logique ; simplification des
+fonctions logiques ; simplification algébrique ; simplification par tableau de Karnaugh.
+CH 3 : La logique combinatoire
+Définitions, classification de la logique combinatoire ; additionneur ; soustracteur ; comparateur ;
+multiplexeur ; démultiplexeur ; codeur ; décodeur.
+CH 4 : La logique séquentielle
+Définitions ; fonctionnements synchrone asynchrone ; bascules ; registres ; registre de mémoire ; registre
+de décalage ; compteurs binaires ; décompteurs binaires.
+CH 5 : Les mémoires
+Définitions ; architecture matérielle d’une machine ; terminologie ; organisation interne ; types de
+mémoires ; classification de mémoires ; fonctionnement de la mémoire ; opération d’écriture ; opération
+de lecture ; adressage ; extension de mémoire.
+CH 6 : Les CAN et CNA
+Définitions ; les CNA ; caractéristiques des CNA ; circuits des convertisseurs NA ; les CAN ; caractéristiques
+des CAN ; circuits des convertisseurs AN.
+LECTURES RECOMMANDEES OU OBLIGATOIRES
+Mouloud SBAII« logique combinatoire et composants numérique : cours et exercices corrigés», édition ELLIPSES, 2013.
+Mouloud SBAII« logique séquentielle», édition ELLIPSES, 2019.

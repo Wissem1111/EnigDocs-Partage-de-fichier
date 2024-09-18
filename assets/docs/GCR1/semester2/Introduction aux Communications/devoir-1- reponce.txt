@@ -1,0 +1,16 @@
+4) Les systèmes mobiles suivants utilisent tous la commutation de paquets pour leur partie réseau :
+
+a. GSM utilise la commutation de circuits pour sa partie radio, mais utilise la commutation de paquets pour sa partie réseau.
+
+b. GPRS est un réseau de données mobiles basé sur la technologie GSM qui utilise la commutation de paquets pour la transmission de données.
+
+c. 4G est un réseau de données mobiles qui utilise la commutation de paquets pour la transmission de données.
+
+
+5)
+//Le MPLS (Multiprotocol Label Switching) est une technique de commutation de paquets utilisée dans les réseaux de télécommunications pour acheminer efficacement les données à travers le réseau.
+
+//Dans un réseau MPLS, les paquets de données sont étiquetés avec un identifiant unique appelé "label", qui permet aux routeurs MPLS de prendre des décisions de routage plus rapides et plus efficaces.
+
+Le principe de commutation dans les réseaux MPLS consiste à créer des chemins prédéfinis (ou "tunnels") pour acheminer les paquets de données à travers le réseau. Les paquets sont étiquetés avec un label qui correspond au chemin prédéfini à suivre. Lorsque les paquets arrivent sur un routeur MPLS, le routeur consulte la table de routage MPLS pour déterminer le chemin à suivre en fonction de l'étiquette associée au paquet.
+

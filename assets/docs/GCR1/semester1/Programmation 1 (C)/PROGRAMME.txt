@@ -1,0 +1,50 @@
+OBJECTIFS D’APPRENTISSAGE/COMPETENCES VISEES
+A l’issue du module, l’étudiant doit être capable de :
+- Acquérir les principes de base de la programmation structurée
+- Manipuler des tableaux, des chaînes de caractères, des
+pointeurs et des types structurés
+- Manipuler des structures alternatives et des structures répétitives
+- Écrire des programmes modulaires
+- Utiliser les principales bibliothèques standards du langage C
+
+
+CONTENUS/DETAILS DU PROGRAMME
+CONTENU THEORIQUE :
+ Chapitre 1 : Notions de base
+ Chapitre 2 : Structures alternatives
+ Chapitre 3 : Structures conditionnelles
+ Chapitre 4 : Tableaux
+- Tableaux à une dimension
+- Tableaux à deux dimensions
+ Chapitre 5 : Chaînes de caractères
+- Déclaration et initialisation
+- Fonctions de manipulation
+- Tableau de chaînes de caractères
+ Chapitre 6 : Pointeurs
+- Déclaration et Opérateurs de base
+- Pointeurs et tableaux
+- Allocation dynamique
+ Chapitre 7 : Structures
+- Définition et Déclaration d’une structure
+- Manipulation d’une structure
+ Chapitre 8 : Fonctions
+- Modularisation
+- Déclaration des variables
+- Définition, Déclaration et Paramètres d’une fonction
+ Chapitre 9 : Fichiers séquentiels
+ Chapitre 10 : Les listes chainées simple et double
+ Chapitre 11 : Les arbres binaires
+CONTENU PRATIQUE :
+ TP1 : Les structures conditionnelles et itératives
+ TP2 : Les tableaux
+ TP3 : Les chaines de caractères
+ TP4 : Les Structures des données
+ TP5 : Les pointeurs et les fonctions
+ TP6 : Les fichiers
+ TP7 : Les listes chainées (Selon le niveau d’avancement des étudiants)
+LECTURES RECOMMANDEES OU OBLIGATOIRES
+ Claude Delannoy « Programmer en langage C : cours et exercices corrigés »,
+Eyrolles
+ Peter Aitken, Bradley Jones « Le langage C», Pearson
+ Rémy Malgouyres, Rita Zrour, Fabien Feschet « Initiation à l'algorithmique et
+à la programmation en C », Dunod

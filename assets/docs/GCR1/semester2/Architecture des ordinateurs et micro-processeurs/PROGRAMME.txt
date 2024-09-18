@@ -1,0 +1,67 @@
+OBJECTIFS D’APPRENTISSAGE/COMPETENCES VISEES
+A l’issue du module, l'étudiant devra être en mesure de :
+ Connaître les différentes caractéristiques des composants d'un ordinateur
+ Comprendre l'architecture interne d’un ordinateur et l'organisation de ses principaux éléments.
+ Analyser, effectuer le design et développer des systèmes basés sur microprocesseur 68000 et ses
+circuits d'interfaces.
+ Maîtriser la programmation en assembleur du microprocesseur 68000 de Motorola.
+ Comprendre les majeures différences entre les architectures Motorola, Intel et ARM
+ Connaître la structure interne des processeurs actuels
+ Connaître la technologie contemporaine en la matière.
+ Comprendre les différentes parties de la chaine de compilation
+ Comprendre les différents mécanismes de la gestion de mémoire
+ Installer et tester une distribution Linux sur un Raspberry Pi.
+PREREQUIS ET COURS ASSOCIES
+Obligatoires : Connaissances de base en électronique et en informatique
+Recommandés : Une culture générale technique ou informatique est un plus
+CONTENUS/DETAILS DU PROGRAMME
+CONTENU THEORIQUE :
+L’objectif général de ce module est de comprendre l'architecture interne de l'ordinateur et l'organisation de ses principaux éléments. Il prépare à l'exploitation de l'ordinateur dans des
+problèmes d'ingénierie tels l'acquisition et le traitement de données, la commande industrielle
+et la gestion de périphériques. Afin de bien dégager la vision physique et logique, il utilise
+principalement le langage d'assemblage, en adoptant l'architecture MOTOROLA dans la
+discussion des divers concepts. Les architectures INTEL et ARM, quant à elles, sont introduites
+de manière succincte. La dernière partie de ce module a pour objectif de fournir à l’étudiant des
+bases théoriques pour bien comprendre le rôle et le principe de fonctionnement des systèmes
+d’exploitation et maîtriser les mécanismes de gestion de la mémoire et des processus.
+Plan du cours
+Généralités
+ Représentation de l’information
+ Circulation de l’information dans un calculateur
+Architecture d’un ordinateur
+ Les différents composants d’une carte mère
+ Les microprocesseurs
+ Périphériques et mémoires
+Microprocesseur MOTOROLA (Exemple applicatif : Le 68000)
+ Architecture du 68000
+ Jeux d’instructions et modes d’adressage
+ Interfaces d’entrées-sorties (Exemple applicatif : Le 68230)
+ Quelques approfondissements sur le processeur 68000
+Autres architectures
+ Architecture Intel (le X86)
+ Architecture ARM (Le Raspberry Pi)
+ Chaine de compilation et d’exécution
+Gestion de la mémoire et des processus
+ Aperçu sur les systèmes d’exploitation
+ Mémoire virtuelle et MMU
+ Segmentation et pagination
+CONTENU PRATIQUE :
+TP1 : Assemblage/désassemblage d'un PC
+TP2 : Prise en main kit FLT-68K MKII
+TP3 : Commande des cartes de simulation à l’aide du KIT MKII via son
+circuit d’interface PI/T
+TP4 : Prise en main d’un nano-ordinateur mono-carte à processeur à quatre
+cœurs ARM Cortex-A
+METHODES ET CRITERES D’EVALUATION
+3/3
+Contrôle continue (50%) : 25% note DC (épreuve écrite) + 25% note TP (y compris examen TP)
+Examen final (50%) : note DS (épreuve écrite)
+LECTURES RECOMMANDEES OU OBLIGATOIRES
+ M. NJAH "Les systèmes à microprocesseurs" Notes de cours. Département de Génie
+Electrique-Automatique. École Nationale d’Ingénieurs de Gabès. AU 2009/2010.
+ A. Tanenbaum, "Architecture de l’ordinateur", 5ème édition, Pearson, 2005.
+ J. L. ANTONAKOS "The 68000 Microprocessor Hardware Software. Principles and
+Applications", 5ème Edition. Prentice−Hall, ISBN 0−13−668120−4.
+ Manuel d’utilisation du Kit FLT-68K MKII
+ J. Jorda, " Processeurs ARM Architecture et langage d'assemblage", Dunod, 2010.
+

@@ -1,0 +1,30 @@
+1) 
+Le terme UEFI (Unified Extensible Firmware Interface) désigne un type de firmware qui 
+est utilisé pour initialiser et configurer les composants matériels d'un ordinateur au moment de son démarrage.
+
+
+2)
+Le processeur Motorola 68000 dispose d'un registre d'instruction de 16 bits, 
+qui peut adresser jusqu'à 65 536 adresses de mémoire différentes. 
+Cela signifie que le 68000 peut exécuter jusqu'à 65 536 instructions différentes.
+
+
+
+3)
+Le mode 2 est un mode de fonctionnement périodique dans lequel le PIT génère des signaux de synchronisation
+ à intervalles réguliers en utilisant une valeur programmée dans son compteur interne. Lorsque le compteur
+ atteint zéro, le PIT génère une impulsion de synchronisation et se réinitialise automatiquement avec la valeur
+ initiale programmée. Ce mode est généralement utilisé pour générer des signaux d'horloge avec une fréquence fixe.
+
+Le mode 3, en revanche, est un mode de fonctionnement à bascule dans lequel le PIT génère des signaux de synchronisation
+ en réponse à des événements externes tels que des impulsions de détection ou des changements de niveau de tension. Le PIT
+ commence à compter à partir de la valeur programmée dans le compteur interne lorsqu'il détecte le premier événement, et
+ il génère une impulsion de synchronisation lorsque le compteur atteint zéro. Ce mode est généralement utilisé pour mesurer
+ des durées ou des intervalles de temps variables.
+
+
+
+4)
+
+
+

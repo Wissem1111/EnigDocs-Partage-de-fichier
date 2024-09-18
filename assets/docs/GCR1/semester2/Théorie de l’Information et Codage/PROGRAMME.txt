@@ -1,0 +1,51 @@
+OBJECTIFS D’APPRENTISSAGE/COMPETENCES VISEES
+-Mesure de la quantité de l’information
+-Etude des modèles pour la source et le canal
+PREREQUIS ET COURS ASSOCIES
+Obligatoires : Probabilités et statistiques, Signaux et Systèmes
+CONTENUS/DETAILS DU PROGRAMME
+CONTENU THEORIQUE :
+Chapitre I: Mesure de l’information
+–Rappels sur les probabilités
+–Quantité d’information
+–Entropie, entropie conjointe et entropie conditionnelle
+–Information mutuelle
+–Diagramme de Venn
+Chapitre II: Codage source
+–Classification des codes sources
+–Inégalité de Kraft et théorème de Mac-Millan
+–Longueur moyenne et efficacité d’un code
+–Techniques de codage optimal (code de Shannon-Fano, code de Huffmann,..)
+–Capacité du canal
+–Matrices de Transition
+–Canaux sans perte, sans bruit, binaire symétrique
+Chapitre 3 : Introduction au codage canal
+1. Modèles des canaux de transmission
+2. Second théorème de Shannon
+3. Historique de codes canal
+4. Familles de codes canal
+Chapitre 4 : Codes en bloc linéaires
+1. Corps de Galois
+2. Matrice génératrice
+3. Codage systématique
+4. Matrice de contrôle
+5. Décodage par syndrome
+6. Décodage par tableau standard
+Chapitre 5 : Codes cycliques
+1. Polynôme générateur
+2. Codage systématique
+3. Matrice génératrice
+4. Matrice de contrôle
+5. Codes BCH
+6. Codes RS
+Chapitre 6 : Codes convolutifs
+1. Principe du codage convolutif
+2. Représentations graphiques
+3. Diagramme en treillis
+4. Codes convolutifs systématiques
+5. Décodage des codes convolutifs
+6. Algorithme de Viterbi
+LECTURES RECOMMANDEES OU OBLIGATOIRES
+[1]Marie-Pierre Béal et Nicolas Sendrier. Théorie de l’information et codage (Notes de cours), 2012
+[2]Philippe Duchon. Théorie de l’information, 2009.
+[3]Nicolas Sendrier. Introduction à la théorie de l'information, 2007

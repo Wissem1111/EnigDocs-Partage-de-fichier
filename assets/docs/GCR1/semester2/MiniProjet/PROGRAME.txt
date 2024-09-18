@@ -1,0 +1,9 @@
+OBJECTIFS D’APPRENTISSAGE/COMPETENCES VISEES
+A l’issue du module, l’étudiant doit être capable de :
+- Développer des application Web PHP
+CONTENUS/DETAILS DU PROGRAMME
+CONTENU THEORIQUE :
+- Notions de base en HTML, CSS, JS
+- Notions de base en PHP
+CONTENU PRATIQUE :
+- Concevoir et développer des applications web PHP (Vente en ligne, Portail web, …)

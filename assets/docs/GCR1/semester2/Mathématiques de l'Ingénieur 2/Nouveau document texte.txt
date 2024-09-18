@@ -1,0 +1,8 @@
+OBJECTIFS D’APPRENTISSAGE/COMPETENCES VISEES
+A l’issue du module, l’étudiant doit être capable de :
+- Savoir manipuler les distributions, les opérateurs linéaires et comprendre comment résoudre une
+équation aux dérivées partielles
+CONTENUS/DETAILS DU PROGRAMME
+CONTENU THEORIQUE :
+1. FONCTIONS DE BASE ET DISTRIBUTIONS-DERRIVATION2- OPERATEURS LINEAIRES
+3-EQUATIONS AUX DERIVEES PARTIELLE : équation d’onde.

@@ -1,0 +1,32 @@
+*Chapitre 1 : statistique descriptive :
+- Fonction de répartition
+- Paramètres de position
+- Paramètres de dispersion
+- Paramètres de forme
+*Chapitre 2 : Introduction au calcul de probabilités
+- Expérience aléatoire
+- Evènement
+- Probabilités totales
+- Théorème de Bayes
+- Indépendance
+*Chapitre 3 : variables aléatoires et lois usuelles de probabilités
+- Variables aléatoires discrètes et continues
+- Moments non centrés, espérance mathématique, variance et fonction génératrice des moments d’une
+variable aléatoires
+- Lois usuelles discrètes est ses caractéristiques : loi de Bernoulli, loi binomiale, loi uniforme discrète et loi
+de poisson
+- Lois usuelles discrètes est ses caractéristiques : loi uniforme continue, loi Gamma, loi exponentielle, loi
+normale, loi normale centrée réduite, loi de khi-deux, loi de Student et loi de Fisher
+*Chapitre 4 : Théorèmes limites
+- Loi des grands nombres
+- Théorème central limit
+- Convergence
+*Chapitre 5 : Échantillonnage et estimation
+- Distribution d’un échantillon aléatoire
+- Moyenne empirique
+- Variance empirique
+- Estimation : propriétés d’un estimateur, comparaison d’estimateurs
+*Chapitre 6: Méthode d’estimation ponctuelle et par intervalle de confiance
+- Méthode du maximum de vraisemblance
+- Exemples d’estimation des lois de probabilités usuelles
+- Estimation par intervalle de confiance : estimation de la moyenne, de la variance et d’une fréquence.

@@ -1,0 +1,2335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JOBFile jobName="GABSI" version="5.3" product="Trimble Digital Fieldbook" productVersion="7.00" productDBVersion="700-5" TimeStamp="2021-06-01T17:47:11"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.trimble.com/schema/JobXML/5_3 http://www.trimble.com/schema/JobXML/5_3/JobXMLSchema-5.3.xsd">
+    <FieldBook>
+
+        <UnitsRecord ID="00000002" TimeStamp="2021-06-01T17:48:01">
+            <DistanceUnits>Metres</DistanceUnits>
+            <HeightUnits>Metres</HeightUnits>
+            <AngleUnits>Gons</AngleUnits>
+            <AzimuthFormat>Azimuth</AzimuthFormat>
+            <LatitudeLongitudeUnits>DMSDegrees</LatitudeLongitudeUnits>
+            <CoordinateOrder>X-Y-Z</CoordinateOrder>
+            <TemperatureUnits>Celsius</TemperatureUnits>
+            <PressureUnits>MilliBar</PressureUnits>
+            <GradeUnits>Percentage</GradeUnits>
+            <AreaUnits>SquareMetres</AreaUnits>
+            <StationingFormat>1+000.0</StationingFormat>
+        </UnitsRecord>
+
+        <FeatureCodingRecord ID="00000003" TimeStamp="2021-06-01T17:48:01">
+            <LibraryName/>
+            <SourceFilename/>
+            <AttributeCheckSum>0</AttributeCheckSum>
+            <AttributesStored>false</AttributesStored>
+        </FeatureCodingRecord>
+
+        <CorrectionsRecord ID="00000004" TimeStamp="2021-06-01T17:48:01">
+            <SouthAzimuth>false</SouthAzimuth>
+            <GridOrientation>IncreasingNorthEast</GridOrientation>
+            <MagneticDeclination>0</MagneticDeclination>
+            <Distances>GroundDistance</Distances>
+            <ApplySeaLevelCorrection>true</ApplySeaLevelCorrection>
+            <NeighbourhoodAdjustment>
+                <Applied>false</Applied>
+                <WeightExponent>0.5</WeightExponent>
+            </NeighbourhoodAdjustment>
+        </CorrectionsRecord>
+
+        <EllipsoidRecord ID="00000006" TimeStamp="2021-06-01T17:48:01">
+            <EarthRadius/>
+            <Flattening/>
+        </EllipsoidRecord>
+
+        <ProjectionRecord ID="00000007" TimeStamp="2021-06-01T17:48:01">
+            <Projection>
+                <Type>ScaleOnly</Type>
+                <Scale>1</Scale>
+            </Projection>
+            <LocalSite>
+                <Type>Grid</Type>
+                <ProjectLocationLatitude/>
+                <ProjectLocationLongitude/>
+                <ProjectLocationHeight/>
+            </LocalSite>
+        </ProjectionRecord>
+
+        <DatumRecord ID="00000008" TimeStamp="2021-06-01T17:48:01">
+            <Type>NoDatum</Type>
+        </DatumRecord>
+
+        <HorizontalAdjustmentRecord ID="00000009" TimeStamp="2021-06-01T17:48:01">
+            <Type>NoAdjustment</Type>
+        </HorizontalAdjustmentRecord>
+
+        <VerticalAdjustmentRecord ID="0000000a" TimeStamp="2021-06-01T17:48:01">
+            <Type>NoAdjustment</Type>
+        </VerticalAdjustmentRecord>
+
+        <CoordinateSystemRecord ID="0000000b" TimeStamp="2021-06-01T17:48:01">
+            <SystemName/>
+            <ZoneName/>
+            <DatumName/>
+        </CoordinateSystemRecord>
+
+        <JobPropertiesRecord ID="0000000c" TimeStamp="2021-06-01T17:48:01">
+            <Reference/>
+            <Description/>
+            <Operator/>
+            <JobNote/>
+        </JobPropertiesRecord>
+
+        <TimeZoneRecord ID="0000000f" TimeStamp="2021-06-01T17:48:01">
+            <ZoneName>Paris, Madrid</ZoneName>
+            <HoursToUTC>-1</HoursToUTC>
+        </TimeZoneRecord>
+
+        <InstrumentRecord ID="00000011" TimeStamp="2021-06-01T17:48:08">
+            <Type>TrimbleM3Model3</Type>
+            <RefractiveIndex>275</RefractiveIndex>
+            <CarrierWavelength>79.5065</CarrierWavelength>
+            <EDMMeasurementMode>Fine</EDMMeasurementMode>
+            <SetHorizontalCircleMode>SetToAzimuth</SetHorizontalCircleMode>
+            <Servo>NoServo</Servo>
+            <AnglesOnlyRate>2</AnglesOnlyRate>
+            <TurnToZero>false</TurnToZero>
+            <AverageMeasurements>3</AverageMeasurements>
+            <HorizontalAnglePrecision>0.00083333333333</HorizontalAnglePrecision>
+            <VerticalAnglePrecision>0.00083333333333</VerticalAnglePrecision>
+            <EDMPrecision>3</EDMPrecision>
+            <EDMppm>2</EDMppm>
+            <InstrumentPrecisionsSource>FromInstrument</InstrumentPrecisionsSource>
+            <CenteringError>0</CenteringError>
+        </InstrumentRecord>
+
+        <PointRecord ID="00000016" TimeStamp="2021-06-01T17:50:01">
+            <Name>S1</Name>
+            <Code/>
+            <Method>Coordinates</Method>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Grid>
+                <North>100</North>
+                <East>200</East>
+                <Elevation>20</Elevation>
+            </Grid>
+        </PointRecord>
+
+        <AtmosphereRecord ID="0000001a" TimeStamp="2021-06-01T17:51:29">
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+            <PPM>8.3338923360724</PPM>
+            <ApplyEarthCurvatureCorrection>false</ApplyEarthCurvatureCorrection>
+            <ApplyRefractionCorrection>true</ApplyRefractionCorrection>
+            <RefractionCoefficient>0.2</RefractionCoefficient>
+            <PressureInputMethod>KeyedIn</PressureInputMethod>
+            <ApplyPPMToRawDistances>true</ApplyPPMToRawDistances>
+        </AtmosphereRecord>
+
+        <StationRecord ID="0000001b" TimeStamp="2021-06-01T17:51:29">
+            <StationName>S1</StationName>
+            <TheodoliteHeight>1.46</TheodoliteHeight>
+            <RawTheodoliteHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.46</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTheodoliteHeight>
+            <InstrumentID>00000011</InstrumentID>
+            <AtmosphereID>0000001a</AtmosphereID>
+            <NumberOfBacksightMeasurements>1</NumberOfBacksightMeasurements>
+            <NumberOfBacksightPoints>1</NumberOfBacksightPoints>
+            <ScaleFactor>1</ScaleFactor>
+            <ScaleType>Fixed</ScaleType>
+            <ScaleFactorStandardError/>
+            <StationType>StationSetup</StationType>
+        </StationRecord>
+
+        <PointRecord ID="0000001c" TimeStamp="2021-06-01T17:51:29">
+            <Name>AR1</Name>
+            <Code/>
+            <Method>AzimuthOnly</Method>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+            <SourcePoint>S1</SourcePoint>
+            <Azimuth>0</Azimuth>
+            <AzimuthType>Grid</AzimuthType>
+        </PointRecord>
+
+        <BackBearingRecord ID="0000001f" TimeStamp="2021-06-01T17:51:29">
+            <StationRecordID>0000001b</StationRecordID>
+            <Station>S1</Station>
+            <BackSight>AR1</BackSight>
+            <Face1HorizontalCircle>0</Face1HorizontalCircle>
+            <Face2HorizontalCircle/>
+            <OrientationCorrection>0</OrientationCorrection>
+            <OrientationCorrectionStandardError/>
+        </BackBearingRecord>
+
+        <TargetRecord ID="00000020" TimeStamp="2021-06-01T17:51:29">
+            <PrismType>UnknownPrism</PrismType>
+            <PrismConstant>0</PrismConstant>
+            <TargetHeight>1.8</TargetHeight>
+            <RawTargetHeight>
+                <MeasurementMethod>TrueHeight</MeasurementMethod>
+                <MeasuredHeight>1.8</MeasuredHeight>
+                <HorizontalOffset>0</HorizontalOffset>
+                <VerticalOffset>0</VerticalOffset>
+            </RawTargetHeight>
+        </TargetRecord>
+
+        <PointRecord ID="00000021" TimeStamp="2021-06-01T17:51:29">
+            <Name>AR1</Name>
+            <Code/>
+            <Method>HorizontalAngleOnly</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>BackSight</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>0</HorizontalCircle>
+                <VerticalCircle/>
+                <EDMDistance/>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError/>
+                <EDMDistanceStandardError/>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+        </PointRecord>
+
+        <PointRecord ID="00000025" TimeStamp="2021-06-01T17:52:06">
+            <Name>P1</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>359.99995036352</HorizontalCircle>
+                <VerticalCircle>88.406180555556</VerticalCircle>
+                <EDMDistance>9.8952</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000197904</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>109.89142326641</North>
+                <East>199.99999143086</East>
+                <Elevation>19.935223967585</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000029" TimeStamp="2021-06-01T17:59:13">
+            <Name>P2</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>30.785385015904</HorizontalCircle>
+                <VerticalCircle>88.885989583333</VerticalCircle>
+                <EDMDistance>30.0585</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.000060117</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>125.81822430837</North>
+                <East>215.38182595897</East>
+                <Elevation>20.244385799337</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000002d" TimeStamp="2021-06-01T17:59:41">
+            <Name>P3</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>31.726059836615</HorizontalCircle>
+                <VerticalCircle>88.952100694444</VerticalCircle>
+                <EDMDistance>28.4807</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000569614</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>124.22096084396</North>
+                <East>214.97439316418</East>
+                <Elevation>20.180854456294</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000031" TimeStamp="2021-06-01T18:00:09">
+            <Name>P4</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>34.406429943098</HorizontalCircle>
+                <VerticalCircle>88.903559027778</VerticalCircle>
+                <EDMDistance>27.7439</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000554878</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>122.88603489869</North>
+                <East>215.6741679206</East>
+                <Elevation>20.190881235997</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000035" TimeStamp="2021-06-01T18:00:42">
+            <Name>P5</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>37.592367181711</HorizontalCircle>
+                <VerticalCircle>88.791649305556</VerticalCircle>
+                <EDMDistance>28.1993</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000563986</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>122.3394522146</North>
+                <East>217.19895370861</East>
+                <Elevation>20.254663130794</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000039" TimeStamp="2021-06-01T18:01:34">
+            <Name>P6</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>40.674959511753</HorizontalCircle>
+                <VerticalCircle>88.628663194444</VerticalCircle>
+                <EDMDistance>33.3062</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000666124</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>125.25295930698</North>
+                <East>221.70177718845</East>
+                <Elevation>20.457075143222</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000003d" TimeStamp="2021-06-01T18:02:39">
+            <Name>P7</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>57.754897186682</HorizontalCircle>
+                <VerticalCircle>88.55234375</VerticalCircle>
+                <EDMDistance>30.8086</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000616172</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>116.43252759297</North>
+                <East>226.04891321072</East>
+                <Elevation>20.438330214614</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000041" TimeStamp="2021-06-01T18:03:08">
+            <Name>P8</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>66.59079636465</HorizontalCircle>
+                <VerticalCircle>88.823802083333</VerticalCircle>
+                <EDMDistance>35.8517</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000717034</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>114.24078474702</North>
+                <East>232.89401397816</East>
+                <Elevation>20.395916859193</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000045" TimeStamp="2021-06-01T18:06:40">
+            <Name>P9</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>77.632988558508</HorizontalCircle>
+                <VerticalCircle>89.049548611111</VerticalCircle>
+                <EDMDistance>47.3836</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000947672</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>110.1469422993</North>
+                <East>246.27797066799</East>
+                <Elevation>20.445958442458</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000049" TimeStamp="2021-06-01T18:06:55">
+            <Name>P10</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>83.388230723273</HorizontalCircle>
+                <VerticalCircle>89.0884375</VerticalCircle>
+                <EDMDistance>48.9551</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000979102</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>105.63606472786</North>
+                <East>248.62360348002</East>
+                <Elevation>20.438800294841</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000004d" TimeStamp="2021-06-01T18:07:37">
+            <Name>P11</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>88.56900992353</HorizontalCircle>
+                <VerticalCircle>89.115538194444</VerticalCircle>
+                <EDMDistance>50.9073</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0001018146</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>101.27115761319</North>
+                <East>250.88562339632</East>
+                <Elevation>20.445779024015</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000051" TimeStamp="2021-06-01T18:08:40">
+            <Name>P12</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>92.331652987701</HorizontalCircle>
+                <VerticalCircle>89.144496527778</VerticalCircle>
+                <EDMDistance>49.8631</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000997262</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>97.971595730087</North>
+                <East>249.81652122593</East>
+                <Elevation>20.404463077322</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000055" TimeStamp="2021-06-01T18:09:39">
+            <Name>P13</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>97.311206378351</HorizontalCircle>
+                <VerticalCircle>89.178194444444</VerticalCircle>
+                <EDMDistance>52.5308</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0001050616</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>93.315656485796</North>
+                <East>252.09861232096</East>
+                <Elevation>20.413397624294</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000059" TimeStamp="2021-06-01T18:11:51">
+            <Name>P14</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>104.69172023755</HorizontalCircle>
+                <VerticalCircle>89.162256944444</VerticalCircle>
+                <EDMDistance>51.7558</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0001035116</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>86.875124197071</North>
+                <East>250.0585215895</East>
+                <Elevation>20.416678289408</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000005d" TimeStamp="2021-06-01T18:13:22">
+            <Name>P15</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>108.7945661029</HorizontalCircle>
+                <VerticalCircle>89.074513888889</VerticalCircle>
+                <EDMDistance>48.0356</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000960712</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>84.526025447593</North>
+                <East>245.4686362045</East>
+                <Elevation>20.435845023273</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000061" TimeStamp="2021-06-01T18:14:27">
+            <Name>P16</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>123.29016712319</HorizontalCircle>
+                <VerticalCircle>88.910850694444</VerticalCircle>
+                <EDMDistance>42.56</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.00008512</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>76.643793594958</North>
+                <East>235.56972735027</East>
+                <Elevation>20.468962939078</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000065" TimeStamp="2021-06-01T18:16:31">
+            <Name>P17</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>132.73232265258</HorizontalCircle>
+                <VerticalCircle>88.83984375</VerticalCircle>
+                <EDMDistance>40.0024</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000800048</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>72.860829335589</North>
+                <East>229.37716764196</East>
+                <Elevation>20.469916769744</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000069" TimeStamp="2021-06-01T18:20:56">
+            <Name>P18</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>136.0369058801</HorizontalCircle>
+                <VerticalCircle>88.831423611111</VerticalCircle>
+                <EDMDistance>38.8313</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000776626</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>72.055399665159</North>
+                <East>226.95102262641</East>
+                <Elevation>20.451912051037</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000006d" TimeStamp="2021-06-01T18:22:05">
+            <Name>P19</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>142.13508336254</HorizontalCircle>
+                <VerticalCircle>88.630972222222</VerticalCircle>
+                <EDMDistance>32.6398</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000652796</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>74.239403073063</North>
+                <East>220.02875654951</East>
+                <Elevation>20.439812352848</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000071" TimeStamp="2021-06-01T18:23:29">
+            <Name>P20</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>151.60679422584</HorizontalCircle>
+                <VerticalCircle>88.766510416667</VerticalCircle>
+                <EDMDistance>37.101</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.000074202</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>67.369460297641</North>
+                <East>217.63826670837</East>
+                <Elevation>20.458650573594</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000075" TimeStamp="2021-06-01T18:24:17">
+            <Name>P21</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>166.76878085214</HorizontalCircle>
+                <VerticalCircle>88.803732638889</VerticalCircle>
+                <EDMDistance>38.211</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.000076422</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>62.811251126522</North>
+                <East>208.74392306495</East>
+                <Elevation>20.457725785521</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000079" TimeStamp="2021-06-01T18:29:25">
+            <Name>P22</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>343.64370447389</HorizontalCircle>
+                <VerticalCircle>89.795381944444</VerticalCircle>
+                <EDMDistance>21.5867</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000431734</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>120.71304203397</North>
+                <East>193.92098459367</East>
+                <Elevation>19.737084864418</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000007d" TimeStamp="2021-06-01T18:30:52">
+            <Name>P23</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>23.124508029937</HorizontalCircle>
+                <VerticalCircle>87.533385416667</VerticalCircle>
+                <EDMDistance>6.4411</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000128822</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>105.91812318853</North>
+                <East>202.52728601076</East>
+                <Elevation>19.93720888576</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000081" TimeStamp="2021-06-01T18:32:33">
+            <Name>P24</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>124.36320562619</HorizontalCircle>
+                <VerticalCircle>86.962152777778</VerticalCircle>
+                <EDMDistance>7.7456</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000154912</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>95.634217608151</North>
+                <East>206.38485626279</East>
+                <Elevation>20.07048518659</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000085" TimeStamp="2021-06-01T18:33:51">
+            <Name>P25</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>151.35704367683</HorizontalCircle>
+                <VerticalCircle>87.801354166667</VerticalCircle>
+                <EDMDistance>13.2967</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000265934</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>88.339029354726</North>
+                <East>206.36911363571</East>
+                <Elevation>20.170118630765</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000089" TimeStamp="2021-06-01T18:34:49">
+            <Name>P26</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>175.81219758036</HorizontalCircle>
+                <VerticalCircle>88.246631944444</VerticalCircle>
+                <EDMDistance>20.9717</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000419434</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>79.093977943156</North>
+                <East>201.53076772142</East>
+                <Elevation>20.301675209804</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000008d" TimeStamp="2021-06-01T18:35:45">
+            <Name>P27</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>172.59840609327</HorizontalCircle>
+                <VerticalCircle>88.634809027778</VerticalCircle>
+                <EDMDistance>28.5566</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000571132</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>71.689237191385</North>
+                <East>203.67772696862</East>
+                <Elevation>20.340348825272</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000091" TimeStamp="2021-06-01T18:36:21">
+            <Name>P28</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>163.08939309503</HorizontalCircle>
+                <VerticalCircle>88.522048611111</VerticalCircle>
+                <EDMDistance>26.1666</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000523332</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>74.973049173913</North>
+                <East>207.60883012299</East>
+                <Elevation>20.334890575108</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000095" TimeStamp="2021-06-01T18:37:02">
+            <Name>P29</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>149.03205973894</HorizontalCircle>
+                <VerticalCircle>88.470503472222</VerticalCircle>
+                <EDMDistance>27.0667</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000541334</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>76.799661781571</North>
+                <East>213.92250698777</East>
+                <Elevation>20.382447525051</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="00000099" TimeStamp="2021-06-01T18:37:33">
+            <Name>P30</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>124.9689918589</HorizontalCircle>
+                <VerticalCircle>88.278333333333</VerticalCircle>
+                <EDMDistance>18.0667</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000361334</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>89.649998110067</North>
+                <East>214.79837367338</East>
+                <Elevation>20.20279950178</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="0000009d" TimeStamp="2021-06-01T18:38:11">
+            <Name>P31</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>108.39120626057</HorizontalCircle>
+                <VerticalCircle>88.735746527778</VerticalCircle>
+                <EDMDistance>23.8473</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000476946</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>92.477888265099</North>
+                <East>222.62389474032</East>
+                <Elevation>20.186152643915</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000a1" TimeStamp="2021-06-01T18:39:40">
+            <Name>P32</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>116.90703842208</HorizontalCircle>
+                <VerticalCircle>88.94328125</VerticalCircle>
+                <EDMDistance>40.1116</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000802232</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>81.850718956987</North>
+                <East>235.76329804686</East>
+                <Elevation>20.399726125326</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000a5" TimeStamp="2021-06-01T18:42:22">
+            <Name>P33</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>105.47213266791</HorizontalCircle>
+                <VerticalCircle>88.883541666667</VerticalCircle>
+                <EDMDistance>36.0831</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000721662</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>90.375901338024</North>
+                <East>234.76903814952</East>
+                <Elevation>20.36305169095</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000a9" TimeStamp="2021-06-01T18:43:06">
+            <Name>P34</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>92.295875577308</HorizontalCircle>
+                <VerticalCircle>88.939618055556</VerticalCircle>
+                <EDMDistance>37.5854</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000751708</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>98.494583974367</North>
+                <East>237.54899262025</East>
+                <Elevation>20.355542814355</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000ad" TimeStamp="2021-06-01T18:44:18">
+            <Name>P35</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>83.598817401728</HorizontalCircle>
+                <VerticalCircle>89.085607638889</VerticalCircle>
+                <EDMDistance>43.6471</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000872942</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>104.86559642763</North>
+                <East>243.36968844495</East>
+                <Elevation>20.356517308074</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000b1" TimeStamp="2021-06-01T18:45:27">
+            <Name>P36</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>70.290735049001</HorizontalCircle>
+                <VerticalCircle>89.027222222222</VerticalCircle>
+                <EDMDistance>41.2358</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000824716</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>113.90473792099</North>
+                <East>238.814648963</East>
+                <Elevation>20.360054176482</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000b5" TimeStamp="2021-06-01T18:46:19">
+            <Name>P37</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>65.113854323606</HorizontalCircle>
+                <VerticalCircle>89.007864583333</VerticalCircle>
+                <EDMDistance>28.4154</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000568308</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>111.9559378723</North>
+                <East>225.77318006751</East>
+                <Elevation>20.1520087625</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000b9" TimeStamp="2021-06-01T18:48:13">
+            <Name>P38</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>40.686854812143</HorizontalCircle>
+                <VerticalCircle>88.999270833333</VerticalCircle>
+                <EDMDistance>22.4501</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000449002</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>117.02104190822</North>
+                <East>214.63361284966</East>
+                <Elevation>20.052089300885</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000bd" TimeStamp="2021-06-01T18:49:56">
+            <Name>P39</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>15.092345613301</HorizontalCircle>
+                <VerticalCircle>89.305642361111</VerticalCircle>
+                <EDMDistance>28.4251</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000568502</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>127.44277255513</North>
+                <East>207.40069534954</East>
+                <Elevation>20.004460640394</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000c1" TimeStamp="2021-06-01T18:55:58">
+            <Name>S2</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>122.27698184949</HorizontalCircle>
+                <VerticalCircle>88.364670138889</VerticalCircle>
+                <EDMDistance>26.2075</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.000052415</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>86.010489086819</North>
+                <East>222.1489137023</East>
+                <Elevation>20.407905506338</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000c5" TimeStamp="2021-06-01T19:02:18">
+            <Name>Sr1</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>163.13971126575</HorizontalCircle>
+                <VerticalCircle>90.139965277778</VerticalCircle>
+                <EDMDistance>26.1289</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000522578</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>74.994198868684</North>
+                <East>207.57841609148</East>
+                <Elevation>19.596159715007</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000c9" TimeStamp="2021-06-01T19:04:30">
+            <Name>P40</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>342.40223518538</HorizontalCircle>
+                <VerticalCircle>87.765729166667</VerticalCircle>
+                <EDMDistance>8.7224</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000174448</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>108.30793573177</North>
+                <East>197.36492426037</East>
+                <Elevation>20.000048768793</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000cd" TimeStamp="2021-06-01T19:06:14">
+            <Name>P41</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>324.04532878314</HorizontalCircle>
+                <VerticalCircle>89.003628472222</VerticalCircle>
+                <EDMDistance>22.77</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.00004554</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>118.42920856254</North>
+                <East>186.63265971754</East>
+                <Elevation>20.055944688908</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000d1" TimeStamp="2021-06-01T19:07:16">
+            <Name>P42</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>303.52547435837</HorizontalCircle>
+                <VerticalCircle>89.306145833333</VerticalCircle>
+                <EDMDistance>29.1809</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000583618</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>116.11573741889</North>
+                <East>175.67528173379</East>
+                <Elevation>20.013362816251</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+
+        <PointRecord ID="000000d5" TimeStamp="2021-06-01T19:08:26">
+            <Name>P43</Name>
+            <Code/>
+            <Method>DirectReading</Method>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+            <Deleted>false</Deleted>
+
+            <Circle>
+                <HorizontalCircle>252.23926186113</HorizontalCircle>
+                <VerticalCircle>89.383663194444</VerticalCircle>
+                <EDMDistance>38.2008</EDMDistance>
+                <Face>Face1</Face>
+                <HorizontalCircleStandardError>0.00083333333333</HorizontalCircleStandardError>
+                <VerticalCircleStandardError>0.00083333333333</VerticalCircleStandardError>
+                <EDMDistanceStandardError>3.0000764016</EDMDistanceStandardError>
+                <EDMMeasurementMode>Default</EDMMeasurementMode>
+            </Circle>
+            <StationID>0000001b</StationID>
+            <BackBearingID>0000001f</BackBearingID>
+            <TargetID>00000020</TargetID>
+            <Pressure>1000</Pressure>
+            <Temperature>25</Temperature>
+
+            <ComputedGrid>
+                <North>88.347735094538</North>
+                <East>163.62181754901</East>
+                <Elevation>20.070902696886</Elevation>
+            </ComputedGrid>
+        </PointRecord>
+    </FieldBook>
+
+    <Reductions>
+
+        <Point>
+            <ID>00000016</ID>
+            <Name>S1</Name>
+            <Code/>
+            <SurveyMethod>KeyedIn</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>100</North>
+                <East>200</East>
+                <Elevation>20</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000021</ID>
+            <Name>AR1</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>BackSight</Classification>
+
+            <Grid>
+                <North/>
+                <East/>
+                <Elevation/>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000025</ID>
+            <Name>P1</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>109.89142326641</North>
+                <East>199.99999143086</East>
+                <Elevation>19.935223967585</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000029</ID>
+            <Name>P2</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>125.81822430837</North>
+                <East>215.38182595897</East>
+                <Elevation>20.244385799337</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000002d</ID>
+            <Name>P3</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>124.22096084396</North>
+                <East>214.97439316418</East>
+                <Elevation>20.180854456294</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000031</ID>
+            <Name>P4</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>122.88603489869</North>
+                <East>215.6741679206</East>
+                <Elevation>20.190881235997</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000035</ID>
+            <Name>P5</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>122.3394522146</North>
+                <East>217.19895370861</East>
+                <Elevation>20.254663130794</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000039</ID>
+            <Name>P6</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>125.25295930698</North>
+                <East>221.70177718845</East>
+                <Elevation>20.457075143222</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000003d</ID>
+            <Name>P7</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>116.43252759297</North>
+                <East>226.04891321072</East>
+                <Elevation>20.438330214614</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000041</ID>
+            <Name>P8</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>114.24078474702</North>
+                <East>232.89401397816</East>
+                <Elevation>20.395916859193</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000045</ID>
+            <Name>P9</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>110.1469422993</North>
+                <East>246.27797066799</East>
+                <Elevation>20.445958442458</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000049</ID>
+            <Name>P10</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>105.63606472786</North>
+                <East>248.62360348002</East>
+                <Elevation>20.438800294841</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000004d</ID>
+            <Name>P11</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>101.27115761319</North>
+                <East>250.88562339632</East>
+                <Elevation>20.445779024015</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000051</ID>
+            <Name>P12</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>97.971595730087</North>
+                <East>249.81652122593</East>
+                <Elevation>20.404463077322</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000055</ID>
+            <Name>P13</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>93.315656485796</North>
+                <East>252.09861232096</East>
+                <Elevation>20.413397624294</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000059</ID>
+            <Name>P14</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>86.875124197071</North>
+                <East>250.0585215895</East>
+                <Elevation>20.416678289408</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000005d</ID>
+            <Name>P15</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>84.526025447593</North>
+                <East>245.4686362045</East>
+                <Elevation>20.435845023273</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000061</ID>
+            <Name>P16</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>76.643793594958</North>
+                <East>235.56972735027</East>
+                <Elevation>20.468962939078</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000065</ID>
+            <Name>P17</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>72.860829335589</North>
+                <East>229.37716764196</East>
+                <Elevation>20.469916769744</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000069</ID>
+            <Name>P18</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>72.055399665159</North>
+                <East>226.95102262641</East>
+                <Elevation>20.451912051037</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000006d</ID>
+            <Name>P19</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>74.239403073063</North>
+                <East>220.02875654951</East>
+                <Elevation>20.439812352848</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000071</ID>
+            <Name>P20</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>67.369460297641</North>
+                <East>217.63826670837</East>
+                <Elevation>20.458650573594</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000075</ID>
+            <Name>P21</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>62.811251126522</North>
+                <East>208.74392306495</East>
+                <Elevation>20.457725785521</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000079</ID>
+            <Name>P22</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>120.71304203397</North>
+                <East>193.92098459367</East>
+                <Elevation>19.737084864418</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000007d</ID>
+            <Name>P23</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>105.91812318853</North>
+                <East>202.52728601076</East>
+                <Elevation>19.93720888576</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000081</ID>
+            <Name>P24</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>95.634217608151</North>
+                <East>206.38485626279</East>
+                <Elevation>20.07048518659</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000085</ID>
+            <Name>P25</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>88.339029354726</North>
+                <East>206.36911363571</East>
+                <Elevation>20.170118630765</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000089</ID>
+            <Name>P26</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>79.093977943156</North>
+                <East>201.53076772142</East>
+                <Elevation>20.301675209804</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000008d</ID>
+            <Name>P27</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>71.689237191385</North>
+                <East>203.67772696862</East>
+                <Elevation>20.340348825272</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000091</ID>
+            <Name>P28</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>74.973049173913</North>
+                <East>207.60883012299</East>
+                <Elevation>20.334890575108</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000095</ID>
+            <Name>P29</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>76.799661781571</North>
+                <East>213.92250698777</East>
+                <Elevation>20.382447525051</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>00000099</ID>
+            <Name>P30</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>89.649998110067</North>
+                <East>214.79837367338</East>
+                <Elevation>20.20279950178</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>0000009d</ID>
+            <Name>P31</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>92.477888265099</North>
+                <East>222.62389474032</East>
+                <Elevation>20.186152643915</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000a1</ID>
+            <Name>P32</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>81.850718956987</North>
+                <East>235.76329804686</East>
+                <Elevation>20.399726125326</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000a5</ID>
+            <Name>P33</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>90.375901338024</North>
+                <East>234.76903814952</East>
+                <Elevation>20.36305169095</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000a9</ID>
+            <Name>P34</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>98.494583974367</North>
+                <East>237.54899262025</East>
+                <Elevation>20.355542814355</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000ad</ID>
+            <Name>P35</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>104.86559642763</North>
+                <East>243.36968844495</East>
+                <Elevation>20.356517308074</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000b1</ID>
+            <Name>P36</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>113.90473792099</North>
+                <East>238.814648963</East>
+                <Elevation>20.360054176482</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000b5</ID>
+            <Name>P37</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>111.9559378723</North>
+                <East>225.77318006751</East>
+                <Elevation>20.1520087625</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000b9</ID>
+            <Name>P38</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>117.02104190822</North>
+                <East>214.63361284966</East>
+                <Elevation>20.052089300885</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000bd</ID>
+            <Name>P39</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>127.44277255513</North>
+                <East>207.40069534954</East>
+                <Elevation>20.004460640394</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000c1</ID>
+            <Name>S2</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>86.010489086819</North>
+                <East>222.1489137023</East>
+                <Elevation>20.407905506338</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000c5</ID>
+            <Name>Sr1</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>74.994198868684</North>
+                <East>207.57841609148</East>
+                <Elevation>19.596159715007</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000c9</ID>
+            <Name>P40</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>108.30793573177</North>
+                <East>197.36492426037</East>
+                <Elevation>20.000048768793</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000cd</ID>
+            <Name>P41</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>118.42920856254</North>
+                <East>186.63265971754</East>
+                <Elevation>20.055944688908</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000d1</ID>
+            <Name>P42</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>116.11573741889</North>
+                <East>175.67528173379</East>
+                <Elevation>20.013362816251</Elevation>
+            </Grid>
+        </Point>
+
+        <Point>
+            <ID>000000d5</ID>
+            <Name>P43</Name>
+            <Code/>
+            <SurveyMethod>Fix</SurveyMethod>
+            <Classification>Normal</Classification>
+
+            <Grid>
+                <North>88.347735094538</North>
+                <East>163.62181754901</East>
+                <Elevation>20.070902696886</Elevation>
+            </Grid>
+        </Point>
+    </Reductions>
+
+    <Environment>
+
+        <DisplaySettings>
+            <DistanceUnits>Metres</DistanceUnits>
+            <HeightUnits>Metres</HeightUnits>
+            <AngleUnits>Gons</AngleUnits>
+            <AzimuthFormat>Azimuth</AzimuthFormat>
+            <LatitudeLongitudeUnits>DMSDegrees</LatitudeLongitudeUnits>
+            <CoordinateOrder>X-Y-Z</CoordinateOrder>
+            <TemperatureUnits>Celsius</TemperatureUnits>
+            <PressureUnits>MilliBar</PressureUnits>
+            <GradeUnits>Percentage</GradeUnits>
+            <AreaUnits>SquareMetres</AreaUnits>
+            <StationingFormat>1+000.0</StationingFormat>
+        </DisplaySettings>
+
+        <CoordinateSystem>
+            <SystemName/>
+            <ZoneName/>
+            <DatumName/>
+            <Ellipsoid>
+                <EarthRadius/>
+                <Flattening/>
+            </Ellipsoid>
+            <Projection>
+                <Type>ScaleOnly</Type>
+                <Scale>1</Scale>
+                <SouthAzimuth>false</SouthAzimuth>
+                <GridOrientation>IncreasingNorthEast</GridOrientation>
+                <ApplySeaLevelCorrection>true</ApplySeaLevelCorrection>
+            </Projection>
+            <LocalSite>
+                <Type>Grid</Type>
+                <ProjectLocationLatitude/>
+                <ProjectLocationLongitude/>
+                <ProjectLocationHeight/>
+            </LocalSite>
+            <Datum>
+                <Type>NoDatum</Type>
+            </Datum>
+            <HorizontalAdjustment>
+                <Type>NoAdjustment</Type>
+            </HorizontalAdjustment>
+            <VerticalAdjustment>
+                <Type>NoAdjustment</Type>
+            </VerticalAdjustment>
+            <CombinedScaleFactor>
+                <Location>
+                    <Latitude/>
+                    <Longitude/>
+                    <Height>20.254265650306</Height>
+                </Location>
+                <Scale>0.99999682443301</Scale>
+            </CombinedScaleFactor>
+        </CoordinateSystem>
+
+        <JobSettings>
+            <NeighbourhoodAdjustment>
+                <Applied>false</Applied>
+                <WeightExponent>0.5</WeightExponent>
+            </NeighbourhoodAdjustment>
+        </JobSettings>
+
+        <TimeZone>
+            <ZoneName>Paris, Madrid</ZoneName>
+            <HoursToUTC>-1</HoursToUTC>
+        </TimeZone>
+    </Environment>
+</JOBFile>
