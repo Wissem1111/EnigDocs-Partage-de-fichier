@@ -1454,7 +1454,6 @@ Banner Style
   background-image: url(../images/banner-item-04.jpg);
 }
 
-
 .main-banner1 .item {
   background-repeat: no-repeat;
   background-position: center center;
@@ -1510,54 +1509,47 @@ Banner Style
   font-weight: 500;
 }
 
-.main-banner1 .item .buttons .icon-button i {
-  color: #7a6ad8;
-  background-color: #fff;
-  display: inline-block;
-  height: 50px;
-  width: 50px;
-  text-align: center;
-  line-height: 50px;
-  border-radius: 50%;
-  margin-right: 10px;
-  font-size: 16px;
-}
+/* Media Queries pour les petits écrans */
+@media only screen and (max-width: 768px) {
+  .main-banner1 {
+    padding: 100px 0px 80px 0px;
+    background-position: center top;
+  }
 
-.main-banner1 .item .buttons .icon-button a {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 500;
-}
+  .main-banner1 .item {
+    padding: 50px 20px;
+    margin-left: 0;
+    background-position: center top;
+  }
 
-.main-banner1 .owl-nav {
-  position: absolute;
-  max-width: 1320px;
-  bottom: 23px;
-  left: 0;
-  text-align: right;
-}
+  .main-banner1 .item h2 {
+    font-size: 32px;
+    line-height: 40px;
+    width: 100%;
+  }
 
-.main-banner1 .owl-nav .owl-prev i,
-.main-banner1 .owl-nav .owl-next i {
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  font-size: 24px;
-  display: inline-block;
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 50%;
-  opacity: 1;
-  transition: all .3s;
-}
+  .main-banner1 .item p {
+    width: 100%;
+  }
 
-.main-banner1 .owl-nav .owl-prev i {
-  position: absolute;
-  bottom: 65px;
-}
+  .main-banner1 .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
 
-.main-banner1 .owl-nav .owl-prev i:hover,
-.main-banner1 .owl-nav .owl-next i:hover {
-  opacity: 1;
-  background-color: rgba(255, 255, 255, 0.5);
+  .main-banner1 .buttons .main-button {
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+
+  .main-banner1 .owl-nav {
+    text-align: center;
+  }
+
+  .main-banner1 .owl-nav .owl-prev i,
+  .main-banner1 .owl-nav .owl-next i {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
 }
