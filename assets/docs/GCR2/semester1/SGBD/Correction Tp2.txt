@@ -1,0 +1,213 @@
+
+### 17. **Donner les noms des fournisseurs qui approvisionnent l'usine n°01 en produit n°03.**
+
+```sql
+SELECT DISTINCT NomF 
+FROM Fournisseur F
+JOIN Livraison L ON F.NF = L.NF
+WHERE L.NU = 1 AND L.NP = 3;
+```
+
+### 18. **Donner le nom et la couleur des produits livrés par le fournisseur n°02.**
+
+```sql
+SELECT DISTINCT P.NomP, P.Couleur 
+FROM Produit P
+JOIN Livraison L ON P.NP = L.NP
+WHERE L.NF = 2;
+```
+
+### 19. **Donner les numéros des fournisseurs qui approvisionnent l'usine n°01 en produit rouge.**
+
+```sql
+SELECT DISTINCT L.NF 
+FROM Livraison L
+JOIN Produit P ON L.NP = P.NP
+WHERE L.NU = 1 AND P.Couleur = 'rouge';
+```
+
+### 20. **Donner les noms des fournisseurs qui approvisionnent une usine de Sochaux ou de Paris en produit rouge.**
+
+```sql
+SELECT DISTINCT F.NomF 
+FROM Fournisseur F
+JOIN Livraison L ON F.NF = L.NF
+JOIN Produit P ON L.NP = P.NP
+JOIN Usine U ON L.NU = U.NumU
+WHERE (U.Ville = 'Sochaux' OR U.Ville = 'Paris') AND P.Couleur = 'rouge';
+```
+
+### 21. **Donner les numéros des produits livrés à une usine par un fournisseur de la même ville.**
+
+```sql
+SELECT DISTINCT P.NP 
+FROM Produit P
+JOIN Livraison L ON P.NP = L.NP
+JOIN Usine U ON L.NU = U.NumU
+JOIN Fournisseur F ON L.NF = F.NF
+WHERE U.Ville = F.Ville;
+```
+
+### 22. **Donner les numéros des usines qui ont au moins un fournisseur qui n’est pas de la même ville.**
+
+```sql
+SELECT DISTINCT U.NumU 
+FROM Usine U
+JOIN Livraison L ON U.NumU = L.NU
+JOIN Fournisseur F ON L.NF = F.NF
+WHERE U.Ville != F.Ville;
+```
+
+### 23. **Donner les numéros des fournisseurs qui approvisionnent à la fois les usines n°01 et n°02.**
+
+```sql
+SELECT DISTINCT L.NF 
+FROM Livraison L
+WHERE L.NU = 1
+INTERSECT
+SELECT L.NF 
+FROM Livraison L
+WHERE L.NU = 2;
+```
+
+### 24. **Donner les numéros des usines qui utilisent au moins un produit disponible chez le fournisseur n°03 (c’est-à-dire un produit qu’il livre mais pas nécessairement à cette usine).**
+
+```sql
+SELECT DISTINCT L.NU 
+FROM Livraison L
+WHERE L.NP IN (
+    SELECT DISTINCT L2.NP 
+    FROM Livraison L2 
+    WHERE L2.NF = 3
+);
+```
+
+### 25. **Donner les numéros des usines qui s’approvisionnent uniquement chez le fournisseur n°03.**
+
+```sql
+SELECT L.NU 
+FROM Livraison L
+GROUP BY L.NU
+HAVING COUNT(DISTINCT L.NF) = 1 AND MAX(L.NF) = 3;
+```
+
+### 26. **Donner les numéros des usines qui ne reçoivent aucun produit rouge d’un fournisseur parisien.**
+
+```sql
+SELECT DISTINCT U.NumU 
+FROM Usine U
+WHERE U.NumU NOT IN (
+    SELECT DISTINCT L.NU 
+    FROM Livraison L
+    JOIN Produit P ON L.NP = P.NP
+    JOIN Fournisseur F ON L.NF = F.NF
+    WHERE P.Couleur = 'rouge' AND F.Ville = 'Paris'
+);
+```
+
+### 27. **Donner le nombre de produits livrés par un fournisseur de Paris.**
+
+```sql
+SELECT COUNT(*) AS Nombre_Produits
+FROM Livraison L
+JOIN Fournisseur F ON L.NF = F.NF
+WHERE F.Ville = 'Paris';
+```
+
+### 28. **Donner le numéro du produit le plus léger (ou les numéros des produits les plus légers si plusieurs produits ont le même poids).**
+
+```sql
+SELECT NP 
+FROM Produit 
+WHERE Poids = (SELECT MIN(Poids) FROM Produit);
+```
+
+### 29. **Donner le nombre de produits livrés par chaque fournisseur (décrit par leur nom).**
+
+```sql
+SELECT F.NomF, COUNT(*) AS Nombre_Produits
+FROM Fournisseur F
+JOIN Livraison L ON F.NF = L.NF
+GROUP BY F.NomF;
+```
+
+### 30. **Donner les numéros des usines qui achètent au fournisseur n°03 tous les produits qu’il fournit.**
+
+```sql
+SELECT L.NU 
+FROM Livraison L
+WHERE L.NF = 3
+GROUP BY L.NU
+HAVING COUNT(DISTINCT L.NP) = (
+    SELECT COUNT(DISTINCT NP) 
+    FROM Livraison 
+    WHERE NF = 3
+);
+```
+
+### 31. **Donner les numéros des produits qui sont livrés à toutes les usines de Paris.**
+
+```sql
+SELECT NP 
+FROM Livraison L
+JOIN Usine U ON L.NU = U.NumU
+WHERE U.Ville = 'Paris'
+GROUP BY NP
+HAVING COUNT(DISTINCT U.NumU) = (SELECT COUNT(DISTINCT NumU) FROM Usine WHERE Ville = 'Paris');
+```
+
+### 32. **Donner les numéros des fournisseurs qui approvisionnent toutes les usines avec un même produit.**
+
+```sql
+SELECT NF 
+FROM Livraison 
+GROUP BY NF, NP
+HAVING COUNT(DISTINCT NU) = (SELECT COUNT(DISTINCT NumU) FROM Usine);
+```
+
+### 33. **Donner pour chaque usine (décrit par leur numéro), la quantité totale de produits livrés (attention, les usines n’ayant aucune livraison doivent apparaître dans les résultats).**
+
+```sql
+SELECT U.NumU, COALESCE(SUM(L.Quantite), 0) AS Quantite_Totale
+FROM Usine U
+LEFT JOIN Livraison L ON U.NumU = L.NU
+GROUP BY U.NumU;
+```
+
+### 34. **Donner les numéros des fournisseurs qui fournissent au moins un produit fourni par un fournisseur qui fournit au moins un produit rouge.**
+
+```sql
+SELECT DISTINCT F1.NF 
+FROM Fournisseur F1
+JOIN Livraison L1 ON F1.NF = L1.NF
+WHERE L1.NP IN (
+    SELECT DISTINCT L2.NP 
+    FROM Livraison L2
+    JOIN Produit P ON L2.NP = P.NP
+    WHERE P.Couleur = 'rouge'
+);
+```
+
+### 35. **Ajouter un nouveau fournisseur : `<4, Dupont, sous-traitant, Saint-Etienne>`.**
+
+```sql
+INSERT INTO Fournisseur (NF, NomF, Statut, Ville)
+VALUES (4, 'Dupont', 'sous-traitant', 'Saint-Etienne');
+```
+
+### 36. **Supprimer tous les produits de couleur noire et de numéro compris entre 1 et 3.**
+
+```sql
+DELETE FROM Produit 
+WHERE Couleur = 'noir' AND NP BETWEEN 1 AND 3;
+```
+
+### 37. **Changer la ville du fournisseur n°04 : il a déménagé à Lyon.**
+
+```sql
+UPDATE Fournisseur 
+SET Ville = 'Lyon' 
+WHERE NF = 4;
+```
+
+Ces requêtes SQL devraient répondre aux questions demandées. Si vous avez besoin de plus d'explications ou de modifications, n'hésitez pas à me le faire savoir.
