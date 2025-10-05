@@ -42,6 +42,64 @@
   50%  { transform: scale(1.1); opacity: 0.8; }
   100% { transform: scale(1); opacity: 1; }
 }
+
+
+.palestine-wrapper {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+  z-index: 9999;
+  font-family: Arial, sans-serif;
+}
+
+/* Texte au-dessus */
+.palestine-wrapper .palestine-text {
+  font-size: 12px;
+  font-weight: bold;
+  color: #d2212b; /* Rouge pour rappeler le drapeau */
+  margin-bottom: 6px;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+/* Le drapeau */
+.palestine-flag-btn {
+  width: 70px;
+  height: 45px;
+  background: linear-gradient(
+    to bottom,
+    black 33%, 
+    white 33% 66%, 
+    green 66%
+  );
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  border-radius: 6px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  display: inline-block;
+  position: relative;
+}
+
+.palestine-flag-btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Triangle rouge */
+.palestine-flag-btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 22.5px solid transparent;
+  border-bottom: 22.5px solid transparent;
+  border-left: 35px solid #d2212b;
+}
+
+
 </style>
 
 
@@ -95,6 +153,18 @@
                     <a href="index.html" class="logo">
                         <h1>ENIGDOCS</h1><span class="badge-nouveau">Nouveau</span> <span class="badge-nouveau">GCR2</span>
                     </a>
+
+
+
+<div class="palestine-wrapper">
+  <div class="palestine-text">FREE PALESTINE</div>
+  <a href="https://www.un.org/unispal/" 
+     class="palestine-flag-btn" 
+     target="_blank" 
+     title="FREE PALESTINE">
+  </a>
+</div>
+
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
@@ -122,20 +192,23 @@
               <div class="header-text">
                 <span class="category">Bienvenue</span>
                 <h2>
-  Bienvenue sur ENIGDOCS, Votre Espace Étudiant
-</h2>
+                  Bienvenue sur ENIGDOCS, Votre Espace Étudiant
+                </h2>
 
-<div style="background-color: #f8d7da; color: #721c24; border: 2px solid #f5c6cb; 
-            padding: 25px; margin-top: 20px; border-radius: 12px; font-weight: bold; 
-            font-size: 20px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">  
-  <i class="fas fa-bell fa-shake fa-2x" style="color:#721c24;"></i>
-  <span style="font-size:22px; text-decoration: underline;"> ALERTE IMPORTANTE </span>
-  <i class="fas fa-exclamation-triangle fa-bounce fa-2x" style="color:#721c24;"></i> 
-  <br><br>
-   Ce site sera <u>supprimé</u> à cause du boycott du serveur <u><strong>Render</strong></u>.<br><br>
-   Veuillez <u>télécharger vos documents</u> pour ce mois en attendant que je refasse l’hébergement DNS sur un autre serveur sans boycott.
-</div>
+                <div style="background-color: #f8d7da; color: #721c24; border: 2px solid #f5c6cb; 
+                            padding: 25px; margin-top: 20px; border-radius: 12px; font-weight: bold; 
+                            font-size: 20px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.25);">  
+                  <i class="fas fa-bell fa-shake fa-2x" style="color:#721c24;"></i>
+                  <span style="font-size:22px; text-decoration: underline;"> ALERTE IMPORTANTE </span>
+                  <i class="fas fa-exclamation-triangle fa-bounce fa-2x" style="color:#721c24;"></i> 
+                  <br><br>
+                  Ce site sera <u>supprimé</u> à cause du boycott du serveur <u><strong>Render</strong></u>.<br><br>
+                  Veuillez <u>télécharger vos documents</u> pour ce mois en attendant que je refasse l’hébergement DNS sur un autre serveur sans boycott.
+                </div>
 
+
+
+                
 
                 <p>Ce site est conçu pour les étudiants de l'École Nationale d'Ingénieurs de Gabès, offrant des supports de cours, travaux dirigés, devoirs, et plus encore, organisés par filière et année pour enrichir votre parcours académique.</p>
                 <div class="buttons">
@@ -149,6 +222,7 @@
         </div>
       </div>
     </div>
+    
   </div>    
    
 
@@ -180,6 +254,17 @@
           </div>
         </div>
       </div>
+
+
+      
+
+
+
+
+
+
+
+
       <ul class="event_filter">
         <li>
           <a class="is_active" href="#!" data-filter="*">Show All</a>
